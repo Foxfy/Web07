@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+*{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	margin: 0px;
+}
+
+header{
+	background-color: #FDEABD;
+	width: 100%;
+}
+
+
+
+
+
+@media (min-width:768px){
+}
+
+@media (min-width:992px){
+}
