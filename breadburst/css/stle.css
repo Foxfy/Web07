@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body{
+    background-color: #FFF2DE;
+}
+
+.navbar{
+
+    width: 100%;
+    background-color: #FDEABD;
+}
+
+.navbar a img{
+    width: 200px;
+    height: 100px;
+}
