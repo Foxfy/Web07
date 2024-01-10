@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* เพิ่มสีข้อความในกรณีที่ต้องการ */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

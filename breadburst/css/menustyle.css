@@ -49,19 +49,32 @@ nav{
     margin: 15px;
 }
 
-.txtimg{
-    display: flex;
-    padding: 20px;
+.container .mhead{
+    display: grid;
+    place-items: end center;
+    margin: 0;
 }
 
-.txtimg .txt{
-    padding: 20px;
+img{
+    max-width: 100%;
 }
 
-.txtimg .txt a{
-    color: #000000;
-    text-decoration: none;
+.container .mgtxt{
+    margin-top: 20px;
 }
+
+.container .mtxt{
+    margin-top: 20px;
+
+}
+
+.container .ingrad .gridtxt{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+    place-items: end center;
+}
+
 /* main end */
 
 
