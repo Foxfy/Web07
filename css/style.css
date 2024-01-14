@@ -54,7 +54,7 @@ nav{
     padding: 20px;
 }
 
-.txtimg .imgi{
+.txtimg img{
     -webkit-box-shadow:0px 0px 30px 0px rgba(28,31,252,0.5);
     -moz-box-shadow: 0px 0px 30px 0px rgba(28,31,252,0.5);
     box-shadow: 0px 0px 30px 0px rgba(28,31,252,0.5);
@@ -68,6 +68,15 @@ nav{
 .txtimg .txt a{
     color: #000000;
     text-decoration: none;
+}
+
+.txtimg .imgi img{
+    width: 200px;
+    height: 200px;
+}
+.txtimg .hbut{
+    align-content: center;
+    justify-content: center;
 }
 /* main end */
 
