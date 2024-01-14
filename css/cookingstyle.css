@@ -50,6 +50,9 @@ nav{
 }
 /* navbar end */
 
+.w100{
+    width: 100%;
+}
 
 /* main start */
 .container{
@@ -150,7 +153,13 @@ nav{
 }
 /* navbar end */
 
+.w80{
+    width: 80%;
+}
 
+.w20{
+    width: 20%;
+}
 /* main start */
 .container{
     margin: 15px;
