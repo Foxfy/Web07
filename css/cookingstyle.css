@@ -82,6 +82,12 @@ img{
 .cmtxt .txtimg{
     display: flex;
     padding: 20px;
+    flex-wrap: wrap;
+}
+
+.txtimg img{
+    width: 100px;
+    height: 100px;
 }
 
 .cmtxt .txt{
@@ -177,8 +183,8 @@ img{
 }
 
 .mimg{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 
 .mhead .mgtxt{
@@ -188,6 +194,12 @@ img{
 .cmtxt .txtimg{
     display: flex;
     padding: 20px;
+    flex-wrap: nowrap;
+}
+
+.txtimg img{
+    width: 200px;
+    height: 200px;
 }
 
 .cmtxt .txt{
