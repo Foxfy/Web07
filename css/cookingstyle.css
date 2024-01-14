@@ -11,6 +11,113 @@ body{
 
 /* navbar start */
 nav{
+    display: block;
+    /* justify-content: space-between; */
+    /* padding: 20px; */
+    background-color: #FDEABD;
+    font-size: 1rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.menu{
+    display: block;
+    list-style: none;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu li{
+    margin-left: 40px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+/* navbar end */
+
+
+/* main start */
+.container{
+    margin: 15px;
+}
+
+.mhead{
+    display: grid;
+    place-items: end center;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.mimg{
+    width: 200px;
+    height: 200px;
+}
+
+.mhead .mgtxt{
+    margin: 20px;
+}
+
+.cmtxt .txtimg{
+    display: flex;
+    padding: 20px;
+}
+
+.cmtxt .txt{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+
+
+/* main end */
+
+
+/* footter start */
+footer{
+    background-color: #FDEABD;
+    height: 100%;
+    display: block;
+}
+
+.ftxtimg{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 20px;
+}
+.ftxtimg .fimg img{
+    width: 100px;
+    height: 100px;
+}
+.ftxtimg .ftxt{
+    padding: 20px;
+}
+/* footter end */
+
+
+@media (min-width:768px){
+    /* navbar start */
+nav{
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -106,3 +213,5 @@ footer{
     padding: 20px;
 }
 /* footter end */
+
+}
