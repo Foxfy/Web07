@@ -45,13 +45,13 @@ nav{
 
 
 .w3{
-    width: 25%;
+    width: 100%;
 }
 .w7{
-    width: 58.33%;
+    width: 80%;
 }
 .w2{
-    width: 16.66%;
+    width: 20%;
 }
 
 
@@ -69,6 +69,7 @@ nav{
 .txtimg{
     display: flex;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .txtimg .imgi{
@@ -220,6 +221,7 @@ nav{
 .txtimg{
     display: flex;
     padding: 20px;
+    flex-wrap: nowrap;
 }
 
 .txtimg .imgi{
