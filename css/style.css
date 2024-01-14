@@ -207,6 +207,16 @@ nav{
 }
 /* navbar end */
 
+.w3{
+    width: 25%;
+}
+.w7{
+    width: 58.33%;
+}
+.w2{
+    width: 16.66%;
+}
+
 /* main start */
 .main{
     margin: 0;
