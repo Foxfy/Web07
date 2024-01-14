@@ -75,7 +75,8 @@ nav{
     height: 200px;
 }
 .txtimg .hbut{
-    align-content: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 /* main end */
