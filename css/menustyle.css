@@ -11,8 +11,8 @@ body{
 
 /* navbar start */
 nav{
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    /* justify-content: space-between; */
     /* padding: 20px; */
     background-color: #FDEABD;
     font-size: 1rem;
@@ -33,7 +33,7 @@ nav{
 }
 
 .menu{
-    display: flex;
+    display: block;
     list-style: none;
     align-items: center;
     padding-top: 10px;
