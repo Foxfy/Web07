@@ -11,11 +11,15 @@ body{
 
 /* navbar start */
 nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    display: block;
+    /* padding: 20px; */
     background-color: #FDEABD;
-    font-size: 1.3rem;
+    font-size: 1rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
 }
 
 .logo img{
@@ -28,9 +32,11 @@ nav{
 }
 
 .menu{
-    display: flex;
+    display: block;
     list-style: none;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .menu li{
