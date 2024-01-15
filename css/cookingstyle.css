@@ -156,6 +156,10 @@ nav{
     margin: 0;
     padding: 0;
 }
+.mhead{
+    display: grid;
+    place-items: center;
+}
 
 img{
     width: 100%;
@@ -165,6 +169,22 @@ img{
 .mhead .mimg{
     width: 400px;
     height: 400px;
+}
+
+.txtimg{
+    display: flex;
+    padding: 20px;
+
+}
+
+.txtimg .txt{
+    padding: 20px;
+}
+
+.txtimg .imgi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .txtimg img{
