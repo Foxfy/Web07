@@ -74,11 +74,16 @@ img{
 
 .mgtxt{
     margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .mtxt{
     margin-top: 20px;
-    padding-left: 40px;
+}
+
+h5{
+    font-weight: bold;
 }
 
 
@@ -177,11 +182,11 @@ img{
 
 .mgtxt{
     margin-top: 20px;
+    font-size: 26px;
 }
 
 .mtxt{
     margin-top: 20px;
-    padding-left: 40px;
 }
 
 .ingrad .gridtxt{
