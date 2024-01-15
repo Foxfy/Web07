@@ -125,7 +125,7 @@ footer{
 .ftxtimg{
     display: flex;
     align-items: center;
-    font-size: 10px;
+    font-size: 5px;
     padding: 20px;
 }
 .ftxtimg .fimg img{
