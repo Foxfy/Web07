@@ -10,21 +10,27 @@
 	<!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/cookingstyle.css" />
+    <script src="https://kit.fontawesome.com/6ebab16c57.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<nav>
-		<div class="logo">
-			<a href="index.html"><img src="pic/title/title500.png" alt="Logo" /></a>
-		</div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+		<label class="logo">
+			<a href="index.html"><img src="pic/title/title80.png" alt="Logo" /></a>
+        </label>
 		<ul class="menu">
-			<li><a href="index.html">หน้าแรก</a></li>
-			<li><a href="menu.html">วัตถุดิบ</a></li>
-			<li><a href="cooking.html">วิธีทำ</a></li>
+			<li><a class="home" href="index.html">หน้าแรก</a></li>
+			<li><a class="menu" href="menu.html">วัตถุดิบ</a></li>
+			<li><a class="cook" href="cooking.html">วิธีทำ</a></li>
 		</ul>
 	</nav>
 
-	<main>
+	<main class="main col-12">
 		<div class="container col-12">
 			<div class="mhead">
 				<div class="mimg">
