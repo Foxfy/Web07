@@ -1,20 +1,24 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-nav{
+body {
+    background: #FFF2DE;
+}
+
+nav {
     background: #FDEABD;
     height: 100px;
     width: 100%;
 }
 
-label.logo{
+label.logo {
     color: #000000;
     font-size: 35px;
     line-height: 80px;
@@ -22,14 +26,14 @@ label.logo{
     font-weight: bold;
 }
 
-nav ul{
+nav ul {
     float: right;
     margin-right: 20px;
     text-decoration: none;
     list-style: none;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
@@ -37,7 +41,7 @@ nav ul li{
     list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     color: gray;
     font-size: 26px;
     padding: 7px 13px;
@@ -47,15 +51,16 @@ nav ul li a{
     list-style: none;
 }
 
-a.menu,nav ul a:hover{
+a.menu,
+nav ul a:hover {
     background: #ffe2a0;
-    transition: 0.5s ;
+    transition: 0.5s;
     text-decoration: none;
     list-style: none;
     color: black;
 }
 
-.checkbtn{
+.checkbtn {
     font-size: 30px;
     color: #000000;
     float: right;
@@ -64,20 +69,13 @@ a.menu,nav ul a:hover{
     cursor: pointer;
     display: none;
 }
-#check{
+
+#check {
     display: none;
 }
 
-
-body{
-    background: #FFF2DE;
-}
-
-
-
 /* main start */
-
-.main{
+.main {
     margin: 0;
     padding: 0;
     display: flex;
@@ -85,111 +83,108 @@ body{
     justify-content: center;
 }
 
-.container{
+.container {
     margin: 0;
     padding: 0;
 }
 
-.container .mhead{
+.container .mhead {
     display: grid;
     place-items: end center;
     margin: 0;
 }
 
-img{
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.mimg{
+.mimg {
     width: 200px;
     height: 200px;
 }
 
-.mgtxt{
+.mgtxt {
     margin-top: 20px;
     font-size: 20px;
     font-weight: bold;
 }
 
-.mtxt{
+.mtxt {
     margin-top: 20px;
     margin-left: 10px;
 }
 
-h5{
+h5 {
     font-weight: bold;
 }
 
-.ingrad{
+.ingrad {
     border: 1px solid #000000;
     padding: 10px;
     margin: 10px;
 }
-.ingrad .gridtxt{
+
+.ingrad .gridtxt {
     display: grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     place-items: center;
 }
 
-.im2{
+.im2 {
     display: flex;
     place-content: center;
 }
 
-.gridtxt img{
+.gridtxt img {
     width: 70px;
     height: 70px;
     border-radius: 20px;
     box-shadow: 0px 0px 30px 0px #373837;
 }
-
 /* main end */
 
-
 /* footter start */
-footer{
+footer {
     background-color: #FDEABD;
     height: 100%;
     display: block;
 }
 
-.ftxtimg{
+.ftxtimg {
     display: flex;
     align-items: center;
     font-size: 5px;
     padding: 20px;
 }
-.ftxtimg .fimg img{
+
+.ftxtimg .fimg img {
     width: 100px;
     height: 100px;
 }
-.ftxtimg .ftxt{
+
+.ftxtimg .ftxt {
     padding: 20px;
 }
 /* footter end */
 
-
-
-
-@media (max-width:922px) {
-    label.logo{
+@media (max-width: 922px) {
+    label.logo {
         font-size: 30px;
         padding-left: 50px;
     }
-     nav ul li a{
+    nav ul li a {
         font-size: 16px;
-     }
-
+    }
 }
 
-@media (max-width:768px) {
-    .checkbtn{
+@media (max-width: 768px) {
+    .checkbtn {
         display: block;
     }
-    ul{
+    ul {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -200,145 +195,74 @@ footer{
         transition: all 0.5s;
         text-decoration: none;
         list-style: none;
+        z-index: 2;
     }
-    nav ul li{
+    nav ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
         text-decoration: none;
         list-style: none;
     }
-    nav ul li a{
+    nav ul li a {
         font-size: 20px;
         text-decoration: none;
         list-style: none;
     }
-    nav ul a:hover,a.menu{
+    nav ul a:hover,
+    a.menu {
         background: none;
         background: #ffe2a0;
         color: #000000;
     }
-    #check:checked ~ ul{
+    #check:checked ~ ul {
         left: 0;
     }
-    main{
-        z-index: -1;
+}
+
+@media (min-width: 853px) {
+    .container {
+        margin: 15px;
     }
-    
-}
 
+    .container .mhead {
+        margin: 0;
+    }
 
+    img {
+        width: 100%;
+        height: 100%;
+    }
 
+    .mimg {
+        width: 400px;
+        height: 400px;
+    }
 
-@media(min-width:853px) {
-    /* navbar start */
-/* nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #FDEABD;
-    font-size: 2rem;
-}
+    .mgtxt {
+        margin-top: 20px;
+        font-size: 26px;
+    }
 
-.logo img{
-    width: 50px;
-    height: 50px;
-}
+    .mtxt {
+        margin-top: 20px;
+    }
 
-.logo a{
-    text-decoration: none;
-}
+    .ingrad .gridtxt {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        place-items: center;
+    }
 
-.menu{
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
+    .gri1 {
+        grid-column: 1/4;
+    }
 
-.menu li{
-    margin-left: 40px;
-}
-
-.menu li a{
-    text-decoration: none;
-    color: black;
-} */
-/* navbar end */
-
-
-/* main start */
-.container{
-    margin: 15px;
-}
-
-.container .mhead{
-    margin: 0;
-}
-
-img{
-    width: 100%;
-    height: 100%;
-}
-
-.mimg{
-    width: 400px;
-    height: 400px;
-}
-
-.mgtxt{
-    margin-top: 20px;
-    font-size: 26px;
-}
-
-.mtxt{
-    margin-top: 20px;
-}
-
-.ingrad .gridtxt{
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    gap: 20px;
-    place-items: center;
-}
-
-.gri1{
-    grid-column: 1/4;
-}
-
-/* .gridtxt div{ */
-    /* border: 1px solid #000; */
-/* } */
-
-.gridtxt img{
-    width: 150px;
-    height: 150px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 30px 0px #373837;
-    
-}
-
-/* main end */
-
-
-/* footter start */
-footer{
-    background-color: #FDEABD;
-    height: 100%;
-    display: block;
-}
-
-.ftxtimg{
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    padding: 20px;
-}
-.ftxtimg .fimg img{
-    width: 100px;
-    height: 100px;
-}
-.ftxtimg .ftxt{
-    padding: 20px;
-}
-/* footter end */
+    .gridtxt img {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 30px 0px #373837;
+    }
 }
